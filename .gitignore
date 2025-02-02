@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+npm-debug.log
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Dependencies
+package-lock.json
+
+# Docker
+docker-compose.override.yml
