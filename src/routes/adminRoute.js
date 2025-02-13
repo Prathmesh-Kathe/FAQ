@@ -3,7 +3,7 @@ const FAQ = require("../models/feqModel.js");
 
 const router = express.Router();
 
-router.get("/admin", async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     const faqs = await FAQ.find({});
     res.render("admin", { faqs });
