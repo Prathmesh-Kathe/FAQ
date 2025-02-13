@@ -26,7 +26,7 @@ app.set("views", path.join(__dirname, "views")); // Ensure correct path
 
 // API Routes
 app.use("/api", faqRoutes);
-app.use("/" , faqRoutes2)
+app.use("/admin" , faqRoutes2)
 
 
 module.exports = app;
